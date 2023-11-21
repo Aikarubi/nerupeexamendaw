@@ -1,12 +1,13 @@
 <html>
     <head>
-        <title>Examen Maria Monteagudo</title>
+        <title>Nerea Rubio</title>
         
     </head>
     <body>
         
             <?php
-                echo "<h1></h1>";
+                echo "<h1>viva el lol</h1>";
+                echo "<h2> Profe ha ganado t1</h2>";
 
                 $conn = mysqli_connect('database', 'root', 'root', "mamoro");
                 $query = 'SELECT * FROM persona';
