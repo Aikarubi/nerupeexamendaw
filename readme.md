@@ -1,11 +1,26 @@
-**EXPLICACIÓN**
+PASOS DETALLADOS PARA UN ESTUDIANTE:
 
-1. Descomprimir el archivo o clonarlo.
-2. Colocar la carpeta descomprimida en Visual Studio (VS).
-3. Asegurarse de tener instalada la extensión de Docker.
-4. Hacer clic derecho en el archivo `docker-compose.yml` y seleccionar la opción "Compose up".
-5. Acceder a la aplicación de Docker.
-6. Hacer clic en el puerto del contenedor web.
-7. Visualizar el archivo `index.php` con las dos opciones.
+Descargar y Descomprimir:
 
-**NOTA:** Si al visualizar el `index.php` se presenta un error, es necesario esperar y recargar la página hasta que los datos de la base de datos se carguen correctamente.
+Descarga el archivo y descomprímelo o clona el repositorio si estás familiarizado con Git.
+Integración en Visual Studio (VS):
+
+Mueve la carpeta descomprimida a tu entorno de desarrollo en Visual Studio.
+Extensión Docker:
+
+Asegúrate de tener la extensión de Docker instalada en Visual Studio. Puedes hacerlo desde la sección de extensiones.
+Ejecución con Docker Compose:
+
+Haz clic derecho en el archivo docker-compose.yml y selecciona "Compose up". Esto iniciará el proceso de construcción y ejecución del entorno definido en el archivo.
+Visualización en Docker:
+
+Abre la aplicación Docker para verificar el estado del contenedor que acabas de iniciar.
+Exploración del Contenedor Web:
+
+Dentro de Docker, encuentra y selecciona el puerto asociado al contenedor web. Este puerto te permitirá acceder a la aplicación.
+Exploración del index.php:
+
+Abre el archivo index.php para explorar las dos opciones mencionadas. Puedes hacer esto utilizando un navegador web.
+NOTA IMPORTANTE PARA ERRORES:
+
+Si al visualizar el index.php encuentras algún error, ten paciencia y recarga la página varias veces. A veces, los datos de la base de datos pueden tardar en cargarse correctamente.
